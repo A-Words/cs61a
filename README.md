@@ -5,8 +5,8 @@ My solutions for CS 61A Spring 2025.
 | hw |status|
 |:---:|:---:|
 | hw01 | ✅ |
-| hw02 | 🔄 |
-| hw03 | ⏳ |
+| hw02 | ✅ |
+| hw03 | 🔄 |
 | hw04 | ⏳ |
 | hw05 | ⏳ |
 | hw06 | ⏳ |
@@ -21,7 +21,7 @@ My solutions for CS 61A Spring 2025.
 |:---:|:----:|
 | lab01 | ✅ |
 | lab02 | ✅ |
-| lab03 | ⏳ |
+| lab03 | ✅ |
 | lab04 | ⏳ |
 | lab05 | ⏳ |
 | lab06 | ⏳ |
@@ -36,7 +36,7 @@ My solutions for CS 61A Spring 2025.
 | project |status|
 |:----:|:----:|
 | hog | ✅ |
-| cats | ⏳ |
+| cats | 🔄 |
 | ants | ⏳ |
 | scheme | ⏳ |
 | scheme_contest | ⏳ |
