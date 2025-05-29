@@ -6,7 +6,7 @@ My solutions for CS 61A Spring 2025.
 |:---:|:---:|
 | hw01 | ✅ |
 | hw02 | ✅ |
-| hw03 | 🔄 |
+| hw03 | ✅ |
 | hw04 | ⏳ |
 | hw05 | ⏳ |
 | hw06 | ⏳ |
