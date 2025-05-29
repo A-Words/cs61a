@@ -22,7 +22,7 @@ My solutions for CS 61A Spring 2025.
 | lab01 | ✅ |
 | lab02 | ✅ |
 | lab03 | ✅ |
-| lab04 | ⏳ |
+| lab04 | ✅ |
 | lab05 | ⏳ |
 | lab06 | ⏳ |
 | lab07 | ⏳ |
