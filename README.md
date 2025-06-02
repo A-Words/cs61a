@@ -8,7 +8,7 @@ My solutions for CS 61A Spring 2025.
 | hw02 | ✅ |
 | hw03 | ✅ |
 | hw04 | 🔄 |
-| hw05 | ⏳ |
+| hw05 | 🔄 |
 | hw06 | ⏳ |
 | hw07 | ⏳ |
 | hw08 | ⏳ |
@@ -23,7 +23,7 @@ My solutions for CS 61A Spring 2025.
 | lab02 | ✅ |
 | lab03 | ✅ |
 | lab04 | ✅ |
-| lab05 | 🔄 |
+| lab05 | ✅ |
 | lab06 | ⏳ |
 | lab07 | ⏳ |
 | lab08 | ⏳ |
