@@ -1,5 +1,6 @@
 # cs61a
 My solutions for CS 61A Spring 2025.
+Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12, ants, scheme, and scheme_contest will use the Fall 2024 semester.
 
 ### Homework
 | hw |status|
@@ -8,8 +9,8 @@ My solutions for CS 61A Spring 2025.
 | hw02 | ✅ |
 | hw03 | ✅ |
 | hw04 | ✅ |
-| hw05 | 🔄 |
-| hw06 | ⏳ |
+| hw05 | ✅ |
+| hw06 | 🔄 |
 | hw07 | ⏳ |
 | hw08 | ⏳ |
 | hw09 | ⏳ |
@@ -25,7 +26,7 @@ My solutions for CS 61A Spring 2025.
 | lab04 | ✅ |
 | lab05 | ✅ |
 | lab06 | ✅ |
-| lab07 | ⏳ |
+| lab07 | 🔄 |
 | lab08 | ⏳ |
 | lab09 | ⏳ |
 | lab10 | ⏳ |
@@ -37,6 +38,6 @@ My solutions for CS 61A Spring 2025.
 |:----:|:----:|
 | hog | ✅ |
 | cats | ✅ |
-| ants | ⏳ |
+| ants | 🔄 |
 | scheme | ⏳ |
 | scheme_contest | ⏳ |
