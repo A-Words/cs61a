@@ -11,7 +11,7 @@ Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12
 | hw04 | ✅ |
 | hw05 | ✅ |
 | hw06 | ✅ |
-| hw07 | ⏳ |
+| hw07 | 🔄 |
 | hw08 | ⏳ |
 | hw09 | ⏳ |
 | hw10 | ⏳ |
@@ -27,8 +27,8 @@ Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12
 | lab05 | ✅ |
 | lab06 | ✅ |
 | lab07 | ✅ |
-| lab08 | 🔄 |
-| lab09 | ⏳ |
+| lab08 | ✅ |
+| lab09 | 🔄 |
 | lab10 | ⏳ |
 | lab11 | ⏳ |
 | lab12 | ⏳ |
