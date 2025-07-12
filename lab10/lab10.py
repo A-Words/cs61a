@@ -14,20 +14,20 @@ def calc_eval(exp):
     3
     """
     if isinstance(exp, Pair):
-        operator = ____________ # UPDATE THIS FOR Q2, e.g (+ 1 2), + is the operator
-        operands = ____________ # UPDATE THIS FOR Q2, e.g (+ 1 2), 1 and 2 are operands
+        operator = exp.first # UPDATE THIS FOR Q2, e.g (+ 1 2), + is the operator
+        operands = exp.rest # UPDATE THIS FOR Q2, e.g (+ 1 2), 1 and 2 are operands
         if operator == 'and': # and expressions
             return eval_and(operands)
         elif operator == 'define': # define expressions
             return eval_define(operands)
         else: # Call expressions
-            return calc_apply(___________, ___________) # UPDATE THIS FOR Q2, what is type(operator)?
+            return calc_apply(calc_eval(operator), operands.map(calc_eval)) # UPDATE THIS FOR Q2, what is type(operator)?
     elif exp in OPERATORS:   # Looking up procedures
         return OPERATORS[exp]
     elif isinstance(exp, int) or isinstance(exp, bool):   # Numbers and booleans
         return exp
-    elif _________________: # CHANGE THIS CONDITION FOR Q4 where are variables stored?
-        return _________________ # UPDATE THIS FOR Q4, how do you access a variable?
+    elif exp in bindings: # CHANGE THIS CONDITION FOR Q4 where are variables stored?
+        return bindings[exp] # UPDATE THIS FOR Q4, how do you access a variable?
 
 def calc_apply(op, args):
     return op(args)
@@ -52,6 +52,10 @@ def floor_div(args):
     20
     """
     "*** YOUR CODE HERE ***"
+    if args.rest == nil:
+        return args.first
+    args.first, args.rest = args.first // args.rest.first, args.rest.rest
+    return floor_div(args)
 
 scheme_t = True   # Scheme's #t
 scheme_f = False  # Scheme's #f
@@ -74,6 +78,13 @@ def eval_and(expressions):
     True
     """
     "*** YOUR CODE HERE ***"
+    expression, val = expressions, True
+    while expression != nil:
+        val = calc_eval(expression.first)
+        if val is scheme_f:
+            return False
+        expression = expression.rest
+    return val
 
 bindings = {}
 
@@ -93,6 +104,8 @@ def eval_define(expressions):
     2
     """
     "*** YOUR CODE HERE ***"
+    bindings[expressions.first] = calc_eval(expressions.rest.first)
+    return expressions.first
 
 OPERATORS = { "//": floor_div, "+": addition, "-": subtraction, "*": multiplication, "/": division }
 
