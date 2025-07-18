@@ -13,7 +13,7 @@ Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12
 | hw06 | ✅ |
 | hw07 | ✅ |
 | hw08 | ✅ |
-| hw09 | ⏳ |
+| hw09 | 🔄 |
 | hw10 | ⏳ |
 | hw11 | ⏳ |
 
@@ -30,7 +30,7 @@ Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12
 | lab08 | ✅ |
 | lab09 | ✅ |
 | lab10 | ✅ |
-| lab11 | 🔄 |
+| lab11 | ✅ |
 | lab12 | ⏳ |
 
 ### Project
@@ -39,5 +39,5 @@ Since Berkeley has closed the Spring 2025 semester, hw06 to hw10, lab07 to lab12
 | hog | ✅ |
 | cats | ✅ |
 | ants | ✅ |
-| scheme | 🔄 |
+| scheme | ✅ |
 | scheme_contest | ⏳ |
